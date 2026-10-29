@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | FitTrack</title>
+    <link rel="stylesheet" href="output_2.css">
+</head>
+
+<body>
+
+    <header>
+        <nav aria-label="Main navigation">
+            <a href="landing.html" class="logo">FitTrack</a>
+
+            <div class="links">
+                <a href="landing.html">Home</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="exercise_library.html">Exercises</a>
+                <a href="routine_builder.html">My Routine</a>
+                <a href="workout_history.html">History</a>
+                <a href="profile.html" class="active" aria-current="page">Profile</a>
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <p class="subtitle">YOUR ACCOUNT</p>
+
+        <h1>My Profile</h1>
+
+        <p class="description">
+            View your personal information, fitness goals,
+            and workout achievements.
+        </p>
+
+        <section class="card mb-7">
+
+            <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+
+                <div class="profile-avatar" aria-label="John Doe initials">
+                    JD
+                </div>
+
+                <div class="text-center sm:text-left flex-1">
+
+                    <h2 class="text-2xl font-bold mb-1">
+                        John Doe
+                    </h2>
+
+                    <p class="text-[#a5b5bd] mb-3">
+                        john@example.com
+                    </p>
+
+                    <span class="routine-badge">
+                        Active Member
+                    </span>
+
+                </div>
+
+                <a href="dashboard.html" class="btn-outline">
+                    View Dashboard
+                </a>
+
+            </div>
+
+        </section>
+
+        <section class="grid grid-cols-1 sm:grid-cols-3 gap-5 mb-10"
+                 aria-label="Profile statistics">
+
+            <div class="card profile-stat">
+                <h3>Total Workouts</h3>
+                <p class="number">24</p>
+                <span>Completed Sessions</span>
+            </div>
+
+            <div class="card profile-stat">
+                <h3>Active Streak</h3>
+                <p class="number">7</p>
+                <span>Consecutive Days</span>
+            </div>
+
+            <div class="card profile-stat">
+                <h3>Calories Burned</h3>
+                <p class="number">4,850</p>
+                <span>Estimated Calories</span>
+            </div>
+
+        </section>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+            <section class="card">
+
+                <h2 class="text-xl font-bold mb-6">
+                    Personal Information
+                </h2>
+
+                <div class="profile-row">
+                    <span>Full Name</span>
+                    <strong>John Doe</strong>
+                </div>
+
+                <div class="profile-row">
+                    <span>Email</span>
+                    <strong>john@example.com</strong>
+                </div>
+
+                <div class="profile-row">
+                    <span>Age</span>
+                    <strong>22 Years</strong>
+                </div>
+
+                <div class="profile-row">
+                    <span>Height</span>
+                    <strong>178 cm</strong>
+                </div>
+
+                <div class="profile-row">
+                    <span>Weight</span>
+                    <strong>75 kg</strong>
+                </div>
+
+            </section>
+
+            <section class="card">
+
+                <h2 class="text-xl font-bold mb-6">
+                    Fitness Goals
+                </h2>
+
+                <div class="profile-row">
+                    <span>Main Goal</span>
+                    <strong>Build Muscle</strong>
+                </div>
+
+                <div class="profile-row">
+                    <span>Experience</span>
+                    <strong>Beginner</strong>
+                </div>
+
+                <div class="profile-row">
+                    <span>Weekly Target</span>
+                    <strong>5 Days</strong>
+                </div>
+
+                <div class="profile-row">
+                    <span>Training Type</span>
+                    <strong>Strength Training</strong>
+                </div>
+
+                <div class="mt-7">
+
+                    <div class="flex justify-between mb-3 text-sm">
+                        <span class="text-[#a5b5bd]">Weekly Progress</span>
+                        <span class="text-[#a3e635] font-bold">80%</span>
+                    </div>
+
+                    <div class="progress-track"
+                         role="progressbar"
+                         aria-label="Weekly progress"
+                         aria-valuenow="80"
+                         aria-valuemin="0"
+                         aria-valuemax="100">
+                        <div class="progress-fill w-[80%]"></div>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+        <section class="card mt-7">
+
+            <h2 class="text-xl font-bold mb-3">
+                Keep Up the Good Work!
+            </h2>
+
+            <p class="mb-6">
+                Stay focused on your goals and keep improving
+                one workout at a time.
+            </p>
+
+            <div class="flex flex-wrap gap-4">
+
+                <a href="routine_builder.html" class="btn">
+                    My Workout Routine
+                </a>
+
+                <a href="workout_history.html" class="btn-outline">
+                    Workout History
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

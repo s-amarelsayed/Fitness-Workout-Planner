@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routine Builder | FitTrack</title>
+    <link rel="stylesheet" href="output_2.css">
+    <link rel="stylesheet" href="phase2_extra.css">
+</head>
+
+<body>
+
+    <header>
+        <nav aria-label="Main navigation">
+            <a href="landing.html" class="logo">FitTrack</a>
+
+            <div class="links">
+                <a href="landing.html">Home</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="exercise_library.html">Exercises</a>
+                <a href="routine_builder.html" class="active" aria-current="page">My Routine</a>
+                <a href="workout_history.html">History</a>
+                <a href="profile.html">Profile</a>
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <p class="subtitle">YOUR WORKOUT PLAN</p>
+
+        <h1>Routine Builder</h1>
+
+        <p class="description">
+            Organize your workouts and build a training
+            plan that fits your goals.
+        </p>
+
+        <section class="card mb-7">
+
+            <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-5">
+
+                <div>
+                    <h2 class="text-2xl font-bold mb-2">
+                        My Weekly Routine
+                    </h2>
+
+                    <p>
+                        A balanced workout plan for building strength.
+                    </p>
+                </div>
+
+                <span class="routine-badge">
+                    Active Plan
+                </span>
+
+            </div>
+
+        </section>
+
+        <section class="mb-8">
+
+            <h2 class="section-title">Training Days</h2>
+
+            <div class="days-grid">
+
+                <div class="day-box active-day">
+                    <span>MON</span>
+                    <strong>Chest</strong>
+                </div>
+
+                <div class="day-box">
+                    <span>TUE</span>
+                    <strong>Back</strong>
+                </div>
+
+                <div class="day-box">
+                    <span>WED</span>
+                    <strong>Rest</strong>
+                </div>
+
+                <div class="day-box">
+                    <span>THU</span>
+                    <strong>Legs</strong>
+                </div>
+
+                <div class="day-box">
+                    <span>FRI</span>
+                    <strong>Shoulders</strong>
+                </div>
+
+                <div class="day-box">
+                    <span>SAT</span>
+                    <strong>Arms</strong>
+                </div>
+
+                <div class="day-box">
+                    <span>SUN</span>
+                    <strong>Rest</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="routine-layout">
+
+            <section>
+
+                <div class="flex flex-wrap justify-between items-center gap-4 mb-6">
+
+                    <div>
+                        <p class="subtitle">MONDAY WORKOUT</p>
+                        <h2 class="text-2xl font-bold">
+                            Chest & Upper Body
+                        </h2>
+                    </div>
+
+                    <span class="routine-badge">
+                        3 Exercises
+                    </span>
+
+                </div>
+
+                <div class="flex flex-col gap-4">
+
+                    <article class="routine-exercise">
+
+                        <div class="exercise-count">01</div>
+
+                        <div class="flex-1">
+                            <h3>Chest Press</h3>
+                            <p>Chest · Dumbbells</p>
+
+                            <div class="exercise-info">
+                                <span>3 Sets</span>
+                                <span>12 Reps</span>
+                                <span>60 sec Rest</span>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="routine-exercise">
+
+                        <div class="exercise-count">02</div>
+
+                        <div class="flex-1">
+                            <h3>Cable Lateral Raise</h3>
+                            <p>Shoulders · Cable Machine</p>
+
+                            <div class="exercise-info">
+                                <span>3 Sets</span>
+                                <span>12 Reps</span>
+                                <span>45 sec Rest</span>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="routine-exercise">
+
+                        <div class="exercise-count">03</div>
+
+                        <div class="flex-1">
+                            <h3>Front Shoulder Raise</h3>
+                            <p>Shoulders · Dumbbells</p>
+
+                            <div class="exercise-info">
+                                <span>3 Sets</span>
+                                <span>10 Reps</span>
+                                <span>45 sec Rest</span>
+                            </div>
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <a href="exercise_library.html" class="add-exercise">
+                    + Browse More Exercises
+                </a>
+
+            </section>
+
+            <aside>
+
+                <div class="card routine-summary">
+
+                    <p class="subtitle">WORKOUT SUMMARY</p>
+
+                    <h2 class="text-xl font-bold mb-6">
+                        Today's Plan
+                    </h2>
+
+                    <div class="summary-row">
+                        <span>Total Exercises</span>
+                        <strong>3</strong>
+                    </div>
+
+                    <div class="summary-row">
+                        <span>Total Sets</span>
+                        <strong>9</strong>
+                    </div>
+
+                    <div class="summary-row">
+                        <span>Estimated Duration</span>
+                        <strong>45 min</strong>
+                    </div>
+
+                    <div class="summary-row">
+                        <span>Difficulty</span>
+                        <strong>Beginner</strong>
+                    </div>
+
+                    <div class="summary-divider"></div>
+
+                    <p class="text-sm text-[#a5b5bd] mb-5">
+                        Stay consistent and focus on proper exercise form.
+                    </p>
+
+                    <a href="workout_history.html" class="btn w-full">
+                        View Workout History
+                    </a>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+        <!-- Add Exercise Form -->
+
+        <section class="card routine-form-section">
+
+            <p class="subtitle">CUSTOMIZE YOUR PLAN</p>
+
+            <h2 class="section-title">Add Exercise</h2>
+
+            <p class="description">
+                Choose an exercise and set your workout details.
+            </p>
+
+            <form aria-label="Add exercise form">
+
+                <div class="routine-form-grid">
+
+                    <div class="routine-form-group">
+
+                        <label for="exercise-name">
+                            Exercise
+                        </label>
+
+                        <select id="exercise-name" name="exercise">
+                            <option value="">Select Exercise</option>
+                            <option value="squats">Squats</option>
+                            <option value="chest">Chest Press</option>
+                            <option value="tbar">T-Bar Row</option>
+                            <option value="lateral">Cable Lateral Raise</option>
+                            <option value="biceps">Biceps Curl</option>
+                            <option value="front">Front Shoulder Raise</option>
+                        </select>
+
+                    </div>
+
+                    <div class="routine-form-group">
+
+                        <label for="workout-day">
+                            Training Day
+                        </label>
+
+                        <select id="workout-day" name="day">
+                            <option value="">Select Day</option>
+                            <option>Monday</option>
+                            <option>Tuesday</option>
+                            <option>Wednesday</option>
+                            <option>Thursday</option>
+                            <option>Friday</option>
+                            <option>Saturday</option>
+                            <option>Sunday</option>
+                        </select>
+
+                    </div>
+
+                    <div class="routine-form-group">
+
+                        <label for="sets">
+                            Sets
+                        </label>
+
+                        <input type="number" id="sets" name="sets" min="1" max="20" value="3">
+
+                    </div>
+
+                    <div class="routine-form-group">
+
+                        <label for="reps">
+                            Reps
+                        </label>
+
+                        <input type="number" id="reps" name="reps" min="1" max="100" value="12">
+
+                    </div>
+
+                    <div class="routine-form-group">
+
+                        <label for="rest">
+                            Rest Time (seconds)
+                        </label>
+
+                        <input type="number" id="rest" name="rest" min="0" value="60">
+
+                    </div>
+
+                    <div class="routine-form-group">
+
+                        <label for="difficulty">
+                            Difficulty
+                        </label>
+
+                        <select id="difficulty" name="difficulty">
+                            <option>Beginner</option>
+                            <option>Intermediate</option>
+                            <option>Advanced</option>
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="routine-form-actions">
+
+                    <button type="button" class="btn">
+                        Add Exercise
+                    </button>
+
+                    <button type="reset" class="reset-btn">
+                        Clear
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
