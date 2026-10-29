@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | FitTrack</title>
+    <link rel="stylesheet" href="output_1.css">
+</head>
+
+<body>
+
+    <header>
+        <nav aria-label="Main navigation">
+            <a href="landing.html" class="logo">FitTrack</a>
+
+            <div class="links">
+                <a href="landing.html">Home</a>
+                <a href="dashboard.html" class="active" aria-current="page">Dashboard</a>
+                <a href="exercise_library.html">Exercises</a>
+                <a href="routine_builder.html">My Routine</a>
+                <a href="workout_history.html">History</a>
+                <a href="profile.html">Profile</a>
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <p class="subtitle">YOUR FITNESS OVERVIEW</p>
+        <h1>Dashboard</h1>
+
+        <p class="description">
+            Track your workouts, check your progress,
+            and stay motivated.
+        </p>
+
+        <section class="stats-grid" aria-label="Workout statistics">
+
+            <div class="card stat-card">
+                <h2>Total Workouts</h2>
+                <p class="number">24</p>
+                <p>Completed workouts</p>
+            </div>
+
+            <div class="card stat-card">
+                <h2>Active Streak</h2>
+                <p class="number">7</p>
+                <p>Consecutive days</p>
+            </div>
+
+            <div class="card stat-card">
+                <h2>Calories Burned</h2>
+                <p class="number">4,850</p>
+                <p>Total estimated calories</p>
+            </div>
+
+        </section>
+
+        <section class="charts-grid" aria-label="Workout charts">
+
+            <div class="card chart-card">
+
+                <h2>Weekly Activity</h2>
+                <p>Workout duration during the week</p>
+
+                <div class="bar-chart"
+                     role="img"
+                     aria-label="Weekly workout activity: Monday 50 percent, Tuesday 75 percent, Wednesday 60 percent, Thursday 90 percent, Friday 65 percent, Saturday 100 percent, Sunday 40 percent.">
+
+                    <div class="bar-item">
+                        <div class="bar" style="height: 50%;"></div>
+                        <span>Mon</span>
+                    </div>
+
+                    <div class="bar-item">
+                        <div class="bar" style="height: 75%;"></div>
+                        <span>Tue</span>
+                    </div>
+
+                    <div class="bar-item">
+                        <div class="bar" style="height: 60%;"></div>
+                        <span>Wed</span>
+                    </div>
+
+                    <div class="bar-item">
+                        <div class="bar" style="height: 90%;"></div>
+                        <span>Thu</span>
+                    </div>
+
+                    <div class="bar-item">
+                        <div class="bar" style="height: 65%;"></div>
+                        <span>Fri</span>
+                    </div>
+
+                    <div class="bar-item">
+                        <div class="bar" style="height: 100%;"></div>
+                        <span>Sat</span>
+                    </div>
+
+                    <div class="bar-item">
+                        <div class="bar" style="height: 40%;"></div>
+                        <span>Sun</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card chart-card">
+
+                <h2>Muscle Distribution</h2>
+                <p>Your workout focus</p>
+
+                <div class="donut-chart"
+                     role="img"
+                     aria-label="Muscle distribution: Chest 35 percent, Legs 30 percent, Back 20 percent, Shoulders 15 percent.">
+
+                    <div class="donut-center">
+                        <strong>100%</strong>
+                        <span>Activity</span>
+                    </div>
+
+                </div>
+
+                <div class="chart-legend">
+
+                    <div>
+                        <span class="dot chest"></span>
+                        Chest - 35%
+                    </div>
+
+                    <div>
+                        <span class="dot legs"></span>
+                        Legs - 30%
+                    </div>
+
+                    <div>
+                        <span class="dot back"></span>
+                        Back - 20%
+                    </div>
+
+                    <div>
+                        <span class="dot shoulders"></span>
+                        Shoulders - 15%
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <h2 class="section-title">Recent Workouts</h2>
+
+        <section class="recent-workouts" aria-label="Recent workouts">
+
+            <div class="workout-card">
+
+                <div>
+                    <h3>Chest Press</h3>
+                    <p>Chest Workout</p>
+                </div>
+
+                <span>3 Sets × 12 Reps</span>
+
+            </div>
+
+            <div class="workout-card">
+
+                <div>
+                    <h3>Squats</h3>
+                    <p>Leg Workout</p>
+                </div>
+
+                <span>3 Sets × 12 Reps</span>
+
+            </div>
+
+            <div class="workout-card">
+
+                <div>
+                    <h3>T-Bar Row</h3>
+                    <p>Back Workout</p>
+                </div>
+
+                <span>3 Sets × 12 Reps</span>
+
+            </div>
+
+        </section>
+
+        <div class="dashboard-action">
+            <a href="exercise_library.html" class="btn">
+                Explore Exercises
+            </a>
+        </div>
+
+    </main>
+
+</body>
+</html>
